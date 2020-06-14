@@ -37,20 +37,21 @@
 
 ---------------------------------
 ### addSimplePlot
-**Inputs**
-</br>name: The name used when referring to the widget 
-</br>value: The value of the widget
+#### Inputs
+name: (string) The name of the plot
+</br>value: (tuple) A set of y-axis data values
 
-**Keywords**
-</br>autoscale:
-</br>overlay:
-</br>minscale:
-</br>maxscale:
-</br>height:
-</br>histogram:
+#### Keywords
+**autoscale:** (bool) Autoscales the y-axis to to be the range of the data. The y axis will start at the smallest value and end at the largest value.
+</br>**overlay:** (string) Title of the graph.
+</br>**minscale:** (float) Lower bounds of y-axis.
+</br>**maxscale:** (float) Upper bounds of y-axis.
+</br>**height:** (float) The overall height of the graph
+</br>**histogram:** (bool) Enables histogram plot mode.
 
-**description**
-<br/>
+**Description**
+<br/>A simple plot is useful for quickly displaying y-axis data values. The x-axis will be the item count.
+
 ### addText
 **Inputs**
 </br>name:
