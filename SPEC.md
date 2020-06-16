@@ -31,7 +31,18 @@
 - [indent](#indent)
 - [unindent](#unindent)
 
-
+### Drawing Interface
+- [addDrawing](#addDrawing)
+- [drawLine](#drawLine)
+- [drawTriangle](#drawTriangle)
+- [drawRectangle](#drawRectangle)
+- [drawQuad](#drawQuad)
+- [drawText](#drawText)
+- [drawCircle](#drawCircle)
+- [drawPolyline](#drawPolyline)
+- [drawPolygon](#drawPolygon)
+- [drawBezierCurve](#drawBezierCurve)
+- [clearDrawing](#clearDrawing)
 
 
 
