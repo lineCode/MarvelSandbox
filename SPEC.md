@@ -33,6 +33,7 @@
 
 ### Drawing Interface
 - [addDrawing](#addDrawing)
+- [clearDrawing](#clearDrawing)
 - [drawLine](#drawLine)
 - [drawTriangle](#drawTriangle)
 - [drawRectangle](#drawRectangle)
@@ -42,7 +43,6 @@
 - [drawPolyline](#drawPolyline)
 - [drawPolygon](#drawPolygon)
 - [drawBezierCurve](#drawBezierCurve)
-- [clearDrawing](#clearDrawing)
 
 
 
