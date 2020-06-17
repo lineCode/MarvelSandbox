@@ -31,18 +31,74 @@
 - [indent](#indent)
 - [unindent](#unindent)
 
+
+### App Interface
+- [isItemHovered](#isItemHovered)
+- [isItemActive](#isItemActive)
+- [isItemFocused](#isItemFocused)
+- [isItemClicked](#isItemClicked)
+- [isItemVisible](#isItemVisible)
+- [isItemEdited](#isItemEdited)
+- [isItemActivated](#isItemActivated)
+- [isItemDeactivated](#isItemDeactivated)
+- [isItemDeactivatedAfterEdit](#isItemDeactivatedAfterEdit)
+- [isItemToggledOpen](#isItemToggledOpen)
+- [getItemRectMin](#getItemRectMin)
+- [getItemRectMax](#getItemRectMax)
+- [getItemRectSize](#getItemRectSize)
+- [changeStyleItem](#changeStyleItem)
+- [changeThemeItem](#changeThemeItem)
+- [getValue](#getValue)
+- [setValue](#setValue)
+- [showItem](#showItem)
+- [hideItem](#hideItem)
+- [setMainCallback](#setMainCallback)
+- [setMouseDownCallback](#setMouseDownCallback)
+- [setMouseDoubleClickCallback](#setMouseDoubleClickCallback)
+- [setMouseClickCallback](#setMouseClickCallback)
+- [setKeyDownCallback](#setKeyDownCallback)
+- [setKeyPressCallback](#setKeyPressCallback)
+- [setKeyReleaseCallback](#setKeyReleaseCallback)
+- [setItemCallback](#setItemCallback)
+- [setItemPopup](#setItemPopup)
+- [setItemTip](#setItemTip)
+- [setItemWidth](#setItemWidth)
+- [setTheme](#setTheme)
+
+
+
+### Logging Interface
+- [Log](#Log)
+- [LogDebug](#LogDebug)
+- [LogError](#LogError)
+- [LogInfo](#LogInfo)
+- [LogWarning](#LogWarning)
+- [SetLogLevel](#SetLogLevel)
+
+
+### Plot Interface
+- [addPlot](#addPlot)
+- [addLineSeries](#addLineSeries)
+- [addScatterSeries](#addScatterSeries)
+
+
 ### Drawing Interface
 - [addDrawing](#addDrawing)
 - [clearDrawing](#clearDrawing)
+- [drawBezierCurve](#drawBezierCurve)
+- [drawCircle](#drawCircle)
 - [drawLine](#drawLine)
-- [drawTriangle](#drawTriangle)
+- [drawPolygon](#drawPolygon)
+- [drawPolyline](#drawPolyline)
 - [drawRectangle](#drawRectangle)
 - [drawQuad](#drawQuad)
 - [drawText](#drawText)
-- [drawCircle](#drawCircle)
-- [drawPolyline](#drawPolyline)
-- [drawPolygon](#drawPolygon)
-- [drawBezierCurve](#drawBezierCurve)
+- [drawTriangle](#drawTriangle)
+
+
+### Input Interface
+- [isMouseButtonPressed](#isMouseButtonPressed)
+- [isKeyPressed](#isKeyPressed)
 
 
 
